@@ -1,0 +1,21 @@
+{
+  "name": "js-ts",
+  "version": "1.0.0",
+  "description": "Project for training",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "param": "tsc && node ./build/parameterDecorators.js",
+    "class": "tsc && node ./build/classDecorators.js",
+    "method": "tsc && node ./build/methodDecorators.js"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "reflect-metadata": "^0.2.2",
+    "typescript": "^5.7.3"
+  }
+}
